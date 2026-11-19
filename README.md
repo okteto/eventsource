@@ -1,3 +1,14 @@
+> [!WARNING]
+> **This fork is archived and no longer maintained.** Use the upstream
+> [`eventsource`](https://www.npmjs.com/package/eventsource) package instead
+> ([EventSource/eventsource](https://github.com/EventSource/eventsource)), which
+> works in browsers since v3.
+>
+> Okteto forked v2 in 2022 to build it for the browser. Okteto has since moved
+> to upstream v5. The repository stays available, read-only, because older
+> Okteto releases still install version `2.1.1` from it, so please don't delete
+> it or make it private.
+
 # EventSource [![npm version](http://img.shields.io/npm/v/eventsource.svg?style=flat-square)](https://www.npmjs.com/package/eventsource)[![NPM Downloads](https://img.shields.io/npm/dm/eventsource.svg?style=flat-square)](http://npm-stat.com/charts.html?package=eventsource&from=2015-09-01)
 
 ![Build](https://github.com/EventSource/eventsource/actions/workflows/build.yml/badge.svg)
